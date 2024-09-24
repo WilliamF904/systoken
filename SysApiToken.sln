@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SysApiToken", "SysApiToken\SysApiToken.csproj", "{4228F82C-736E-4E6C-9ED9-1A1DA991D997}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4228F82C-736E-4E6C-9ED9-1A1DA991D997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4228F82C-736E-4E6C-9ED9-1A1DA991D997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4228F82C-736E-4E6C-9ED9-1A1DA991D997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4228F82C-736E-4E6C-9ED9-1A1DA991D997}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7DC5E008-78FC-4786-813B-6F7C0E5F13A5}
+	EndGlobalSection
+EndGlobal

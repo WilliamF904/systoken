@@ -1,0 +1,6 @@
+@SysApiToken_HostAddress = http://localhost:5102
+
+GET {{SysApiToken_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

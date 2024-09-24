@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "wfBaOHzoT+2jPKp6FLBVNQcjlIOOmvFLVoO2dqD0axU=",
+  "Source": "SysApiToken",
+  "BasePath": "_content/SysApiToken",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
