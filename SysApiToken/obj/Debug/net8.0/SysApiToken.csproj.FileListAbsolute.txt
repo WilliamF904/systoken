@@ -251,3 +251,4 @@ C:\Users\William\source\repos\SysApiToken\SysApiToken\obj\Debug\net8.0\SysApiTok
 C:\Users\William\source\repos\SysApiToken\SysApiToken\obj\Debug\net8.0\SysApiToken.genruntimeconfig.cache
 C:\Users\William\source\repos\SysApiToken\SysApiToken\obj\Debug\net8.0\ref\SysApiToken.dll
 C:\Users\William\source\repos\SysApiToken\SysApiToken\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\William\source\repos\SysApiToken\SysApiToken\obj\Debug\net8.0\SysApiToken.sourcelink.json

@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{4228F82C-736E-4E6C-9ED9-1A1DA991D997}|SysApiToken\\SysApiToken.csproj|solutionrelative:sysapitoken\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4228F82C-736E-4E6C-9ED9-1A1DA991D997}|SysApiToken\\SysApiToken.csproj|c:\\users\\william\\source\\repos\\sysapitoken\\sysapitoken\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4228F82C-736E-4E6C-9ED9-1A1DA991D997}|SysApiToken\\SysApiToken.csproj|solutionrelative:sysapitoken\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4228F82C-736E-4E6C-9ED9-1A1DA991D997}|SysApiToken\\SysApiToken.csproj|c:\\users\\william\\source\\repos\\sysapitoken\\sysapitoken\\auth\\jwtauthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4228F82C-736E-4E6C-9ED9-1A1DA991D997}|SysApiToken\\SysApiToken.csproj|solutionrelative:sysapitoken\\auth\\jwtauthentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4228F82C-736E-4E6C-9ED9-1A1DA991D997}|SysApiToken\\SysApiToken.csproj|c:\\users\\william\\source\\repos\\sysapitoken\\sysapitoken\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4228F82C-736E-4E6C-9ED9-1A1DA991D997}|SysApiToken\\SysApiToken.csproj|solutionrelative:sysapitoken\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4228F82C-736E-4E6C-9ED9-1A1DA991D997}|SysApiToken\\SysApiToken.csproj|c:\\users\\william\\source\\repos\\sysapitoken\\sysapitoken\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4228F82C-736E-4E6C-9ED9-1A1DA991D997}|SysApiToken\\SysApiToken.csproj|solutionrelative:sysapitoken\\controllers\\rolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4228F82C-736E-4E6C-9ED9-1A1DA991D997}|SysApiToken\\SysApiToken.csproj|c:\\users\\william\\source\\repos\\sysapitoken\\sysapitoken\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4228F82C-736E-4E6C-9ED9-1A1DA991D997}|SysApiToken\\SysApiToken.csproj|c:\\users\\william\\source\\repos\\sysapitoken\\sysapitoken\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4228F82C-736E-4E6C-9ED9-1A1DA991D997}|SysApiToken\\SysApiToken.csproj|solutionrelative:sysapitoken\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4228F82C-736E-4E6C-9ED9-1A1DA991D997}|SysApiToken\\SysApiToken.csproj|c:\\users\\william\\source\\repos\\sysapitoken\\sysapitoken\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4228F82C-736E-4E6C-9ED9-1A1DA991D997}|SysApiToken\\SysApiToken.csproj|solutionrelative:sysapitoken\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Rol.cs",
               "DocumentMoniker": "C:\\Users\\William\\source\\repos\\SysApiToken\\SysApiToken\\Models\\Rol.cs",
               "RelativeDocumentMoniker": "SysApiToken\\Models\\Rol.cs",
@@ -46,21 +46,19 @@
               "RelativeToolTip": "SysApiToken\\Models\\Rol.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T18:42:08.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T18:42:08.529Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\William\\source\\repos\\SysApiToken\\SysApiToken\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "SysApiToken\\Models\\Usuario.cs",
               "ToolTip": "C:\\Users\\William\\source\\repos\\SysApiToken\\SysApiToken\\Models\\Usuario.cs",
               "RelativeToolTip": "SysApiToken\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T18:26:09.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T18:26:09.977Z"
             },
             {
               "$type": "Document",
@@ -70,14 +68,14 @@
               "RelativeDocumentMoniker": "SysApiToken\\Controllers\\UsuarioController.cs",
               "ToolTip": "C:\\Users\\William\\source\\repos\\SysApiToken\\SysApiToken\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "SysApiToken\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAuwCAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAgwDMAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-20T18:23:03.62Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "RolController.cs",
               "DocumentMoniker": "C:\\Users\\William\\source\\repos\\SysApiToken\\SysApiToken\\Controllers\\RolController.cs",
               "RelativeDocumentMoniker": "SysApiToken\\Controllers\\RolController.cs",
@@ -85,25 +83,24 @@
               "RelativeToolTip": "SysApiToken\\Controllers\\RolController.cs",
               "ViewState": "AgIAAEUAAAAAAAAAAAAUwDQAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T22:25:12.775Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-19T22:25:12.775Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "JwtAuthentication.cs",
               "DocumentMoniker": "C:\\Users\\William\\source\\repos\\SysApiToken\\SysApiToken\\Auth\\JwtAuthentication.cs",
               "RelativeDocumentMoniker": "SysApiToken\\Auth\\JwtAuthentication.cs",
               "ToolTip": "C:\\Users\\William\\source\\repos\\SysApiToken\\SysApiToken\\Auth\\JwtAuthentication.cs",
               "RelativeToolTip": "SysApiToken\\Auth\\JwtAuthentication.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAUwCQAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-19T20:16:48.157Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\William\\source\\repos\\SysApiToken\\SysApiToken\\Program.cs",
               "RelativeDocumentMoniker": "SysApiToken\\Program.cs",
@@ -111,8 +108,7 @@
               "RelativeToolTip": "SysApiToken\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T22:13:05.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-18T22:13:05.376Z"
             }
           ]
         }

@@ -17,7 +17,7 @@ namespace SysApiToken.Auth
             _key = key;
         }
 
-        public string EncriptarMD5(string pUsuario)
+        public string EncriptarMD5(string pUsuario) 
         {
             using (var md5 = MD5.Create())
             {

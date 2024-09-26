@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using SysApiToken.Auth;
 using SysApiToken.Models;
 
@@ -31,7 +32,7 @@ namespace SysApiToken.Controllers
         private readonly JwtAuthentication _jwtAuthentication = new JwtAuthentication(_key);
 
 
-        //{"login":"SysAdmin","password":"Admin2021"}  {"login": "roberto","password": "moran1"}
+        //{"login":"SysAdmin","password":"Admin2021"}  {"login": "roberto","password": "moran2024"}
         [HttpPost("login")]
         [AllowAnonymous]
         public async Task<ActionResult> Login([FromBody] object pUsuario)// Define el método como una acción asincrónica que devuelve un resultado HTTP. Recibe un objeto `pUsuario` enviado en el cuerpo de la solicitud HTTP.
@@ -40,7 +41,7 @@ namespace SysApiToken.Controllers
             string strUsuario = JsonSerializer.Serialize(pUsuario);// Serializa el objeto `pUsuario` a una cadena JSON.
             Usuario usuario = JsonSerializer.Deserialize<Usuario>(strUsuario, option);
 
-            Usuario usuario_auth = await _context.Usuario.Where(x => x.Login == usuario.Login && x.Password == _jwtAuthentication.EncriptarMD5(usuario.Password)).FirstOrDefaultAsync();
+            Usuario usuario_auth = await _context.Usuario.Where(x => x.Login == usuario.Login && x.Password == _jwtAuthentication.EncriptarMD5(usuario.Password)).FirstOrDefaultAsync(); //.TOLIST SI SON MUCHOS
             // Consulta la base de datos para encontrar un usuario cuyo login y contraseña (después de encriptar la contraseña ingresada con MD5) coincidan.  `FirstOrDefaultAsync()` obtiene el primer resultado o null si no existe.
 
             if (usuario_auth != null && usuario_auth.Id > 0 && usuario.Login == usuario_auth.Login)
@@ -49,7 +50,7 @@ namespace SysApiToken.Controllers
                 if (usuario_auth.Estatus == 1)
                 {  
                     if (usuario_auth.IdRol == 1)   // Verificar el rol del usuario Suponiendo que el rol 1 tiene acceso
-                    {
+                    { 
                         var token = _jwtAuthentication.Authenticate(usuario_auth);// Generar el token JWT para el usuario autenticado
                         return Ok(token); // Devolver el token si el usuario tiene el rol adecuado
                     }
@@ -113,6 +114,7 @@ namespace SysApiToken.Controllers
         }
 
 
+      
         // PUT: api/Usuario/5
         [HttpPut("{id}")]
         public async Task<IActionResult> PutUsuario(int id, Usuario usuario)
@@ -120,9 +122,11 @@ namespace SysApiToken.Controllers
             if (id != usuario.Id)
             {
                 return BadRequest("El ID en la solicitud no coincide con el ID del usuario.");
-             
+
             }
 
+            // Encripta la contraseña antes de almacenar el usuario
+            usuario.Password = _jwtAuthentication.EncriptarMD5(usuario.Password);
             _context.Entry(usuario).State = EntityState.Modified;
 
             try
@@ -147,7 +151,7 @@ namespace SysApiToken.Controllers
 
 
         // POST: api/Usuario
-       [HttpPost]
+        [HttpPost]
         public async Task<ActionResult<Usuario>> PostUsuario(Usuario usuario)
         {
             // Encripta la contraseña antes de almacenar el usuario
